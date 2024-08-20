@@ -1,3 +1,4 @@
+import Button from "./components/Button/Button";
 import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
@@ -12,6 +13,9 @@ const App = () => {
         <h1 className="md:text-5xl text-3xl text-[#fff] font-semibold py-5">
           Items every woman should have
         </h1>
+        <div className="text-xl">
+          <Button />
+        </div>
       </div>
     </section>
   );

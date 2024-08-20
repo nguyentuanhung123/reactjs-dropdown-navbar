@@ -6,10 +6,8 @@ const NavbarLinks = () => {
             {
                 links.map((link) => (
                     <div key={link.name}>
-                        <div>
-                            <h1>
-                                {link.name}
-                            </h1>
+                        <div className="px-3 text-left md:cursor-pointer">
+                            <h1 className="py-7">{link.name}</h1>
                         </div>
                     </div>
                 ))
